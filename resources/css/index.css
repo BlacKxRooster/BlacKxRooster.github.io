@@ -1,7 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
 
-
+* {
+  margin: 0;
+  padding: 0;
+}
 
 .nav-bar a {
   background:rgba(22,136,0,1.00) ;
@@ -26,24 +29,34 @@
 .welcome {
 	color: azure;
 	text-align: center;
-	text-decoration: overline;
+	font-size: 50px;
 	text-decoration: underline;
 	background-image: url("../../images/tower-bridge.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-color: rgba(0,0,0,0.5);
-	border: 5px hidden gold;
+	border: 5px none gold;
 	margin: 50px;
-	padding: 15px;
+	padding: 90px;
 	height: 700px;
 	
 	}
+
+.intro-question {
+	color: aliceblue;
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 2px;
+	padding: 10px 290px;
+	text-align: center;
+}
+
 p {
 	color: aliceblue;
 	font-size: 18px;
 	line-height: 22px;
 	letter-spacing: 2px;
-	line-height: 20px;
+	padding: 0px 50px;
 }
 
 
@@ -63,6 +76,13 @@ h2 {
 	text-align: center;
 	text-decoration: underline;
 	font-weight: bold;
+	padding-bottom: 15px;
+	font-size: 35px;
+}
+
+h3 {
+	padding: 25px ;
+	font-size: 25px;
 }
 
 .tourist-locations {
@@ -72,8 +92,6 @@ h2 {
 	padding: 25px;
 	margin: 10px;
 	background-color: rgba(0,0,0,0.8);
-	align-content: center;
-	
 }
 
 .food-spots {
