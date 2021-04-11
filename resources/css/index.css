@@ -1,9 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
 
-@media (max-width: 500px) {
-   margin: 5px;
+@media (min-width: 997px) {
+   html {
 
+		 margin: 10px auto;
+	 }
+
+	 main {
+		 text-align: center;
+		 position: relative;
+		 margin: 0 auto;
+	 }
 }
 
 .nav-bar a {
@@ -49,6 +57,7 @@
 	letter-spacing: 2px;
 	padding: 10px 290px;
 	text-align: center;
+	background-color: rgba(20,20,20,0.5);
 }
 
 p {
@@ -62,15 +71,19 @@ p {
 
 
 body {
-/* Incase i ever want to switch the pictures around	background-image: url("../../images/tower-bridge.jpg");*/
+/* Incase i ever want to switch the pictures around	background-image: url("images/tower-bridge.jpg");*/
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-color: rgba(0,0,0,0.88)
+	background-color: rgba(0,0,0,0.88);
 	text-align: center;
+	margin: auto;
 }
 
 main{
 	text-align: center;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 h2 {
@@ -93,6 +106,8 @@ h3 {
 	padding: 25px;
 	margin: 10px;
 	background-color: rgba(0,0,0,0.8);
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .food-spots {
@@ -102,6 +117,8 @@ h3 {
 	padding: 25px;
 	margin: 10px;
 	background-color: rgba(0,0,0,0.8);
+	margin-left: auto;
+	margin-right: auto;
 }
 
 ul {
